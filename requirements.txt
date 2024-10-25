@@ -1,0 +1,5 @@
+pandas==1.5.3      # Pandas for handling DataFrames
+openpyxl==3.1.2    # Openpyxl for reading Excel files (required by pandas for xlsx files)
+pillow==9.4.0
+#sqlite3==3.43.2    # SQLite for interacting with SQLite databases (comes with Python)
+streamlit==1.25.0  # Streamlit for building the app
