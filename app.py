@@ -93,7 +93,7 @@ def query_database(sheet_name, selected_columns=None, search_query=None):
 
 # Streamlit App Interface
 def main():
-    st.title("Methods Database Query App")
+    st.title("FactSheets Query App")
 
     # Sheet selection
     sheet_name = st.selectbox('Select a Methods Sheet', list(databases.keys()))
